@@ -3,11 +3,11 @@ using namespace std;
 
 int main(){
 
-    int arr[4] = {1,2,2,3};
+    int arr[3] = {1,2,2};
     int freq[10] = {0};
 
     // frequency count
-    for(int i = 0; i < 4; i++){
+    for(int i = 0; i < 3; i++){
         freq[arr[i]]++;
     }
 
